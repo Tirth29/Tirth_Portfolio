@@ -28,7 +28,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2">
-              {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
+              {['Home', 'About', 'Skills', 'Experience', 'Projects', 'Contact'].map((item) => (
                 <li key={item}>
                   <button
                     onClick={() => {
@@ -50,11 +50,12 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Technologies</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li>React & JavaScript</li>
-              <li>Node.js & Express</li>
-              <li>MongoDB & Database</li>
-              <li>HTML5 & CSS3</li>
-              <li>Git & Version Control</li>
+              <li>Java, Python & TypeScript</li>
+              <li>React, Next.js & Angular</li>
+              <li>Java, Django, Node.js, Spring Boot</li>
+              <li>MySQL, PostgreSQL, MongoDB</li>
+              <li>Docker, Jenkins, AWS</li>
+              <li>Kafka, Redis, Git</li>
             </ul>
           </div>
 

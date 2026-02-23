@@ -14,13 +14,13 @@ const Projects = () => {
       category: 'Full Stack',
       githubUrl: 'https://github.com/Tirth29/Royal_Restaurant/',
       featured: true,
-      liveUrl: 'royal-restaurant-eight.vercel.app/'
+      liveUrl: 'https://royal-restaurant-eight.vercel.app/'
     },
     {
       id: 2,
       title: 'Store@Svnit',
       description: 'Developed a scalable Store@SVNIT app with JWT authentication (15-day login), Cloudinary uploads, Stripe payments, and a React Native + Redux Toolkit UI, delivering a production-ready MERN application.',
-      image: '',
+      image: 'https://drive.google.com/thumbnail?id=1pd_q-JTn0GZeRrRQhahNapAlrRhS9yoL&sz=w1000',
       technologies: ['React Native', 'MongoDB', 'Express.Js', 'Node.Js', 'Redux'],
       category: 'Mobile Application',
       githubUrl: 'https://github.com/Tirth29/Store-Svnit',
@@ -31,7 +31,7 @@ const Projects = () => {
       id: 3,
       title: 'Chat with codebase',
       description: 'Built an AI Code Assistant using ChatGPT with a RAG pipeline for context-aware bug detection and optimization, plus an embeddings-based search engine enabling LLM interaction with local code.',
-      image: '',
+      image: 'https://drive.google.com/thumbnail?id=1Ld50Ji_JvCtNsUC6uIlPkzwi3SRnkggD&sz=w1000',
       technologies: ['Python', 'LLMs', 'Vector DBs', 'RAG'],
       category: 'VS Code Extension',
       githubUrl: 'https://github.com/Peacexoom/Chat-with-Codebase',
